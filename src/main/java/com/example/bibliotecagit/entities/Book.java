@@ -23,7 +23,7 @@ public class Book {
 
     public void setIsbn(String isbn) throws LibraryException {
         if (isbn == null || isbn.trim().isEmpty()) {
-            throw new LibraryException("ISBN no puede estar vacío");
+            throw new LibraryException("ISBN debe contener algo");
         }
         this.isbn = isbn;
     }
