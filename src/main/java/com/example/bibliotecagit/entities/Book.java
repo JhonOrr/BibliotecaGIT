@@ -23,7 +23,7 @@ public class Book {
 
     public void setIsbn(String isbn) throws LibraryException {
         if (isbn == null || isbn.trim().isEmpty()) {
-            throw new LibraryException("ISBN debe contener algo");
+            throw new LibraryException("ISBN debe contener algo en su contenido");
         }
         this.isbn = isbn;
     }
@@ -45,7 +45,7 @@ public class Book {
 
     public void setAuthor(String author) throws LibraryException {
         if (author == null || author.trim().isEmpty()) {
-            throw new LibraryException("El autor no puede estar vacío");
+            throw new LibraryException("El autor debe de contener algo");
         }
         this.author = author;
     }
