@@ -34,7 +34,7 @@ public class Book {
 
     public void setTitle(String title) throws LibraryException {
         if (title == null || title.trim().isEmpty()) {
-            throw new LibraryException("El no debe estar vacio, ni contener 0 caracteres");
+            throw new LibraryException("El no debe estar vacio, ni contener 0 caracteresxxx");
         }
         this.title = title;
     }
