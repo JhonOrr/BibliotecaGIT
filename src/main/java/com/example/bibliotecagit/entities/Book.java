@@ -34,7 +34,7 @@ public class Book {
 
     public void setTitle(String title) throws LibraryException {
         if (title == null || title.trim().isEmpty()) {
-            throw new LibraryException("El título no puede estar vacío");
+            throw new LibraryException("El título debe contener algo");
         }
         this.title = title;
     }
