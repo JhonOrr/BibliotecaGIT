@@ -1,11 +1,11 @@
-package com.biblioteca.repository.impl;
+package com.example.bibliotecagit.repository.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.biblioteca.entities.Book;
-import com.biblioteca.exceptions.LibraryException;
-import com.biblioteca.repository.BookRepository;
+import com.example.bibliotecagit.entities.Book;
+import com.example.bibliotecagit.exceptions.LibraryException;
+import com.example.bibliotecagit.repository.BookRepository;
 
 public class ArrayListBookRepository implements BookRepository {
   private List<Book> books = new ArrayList<>();

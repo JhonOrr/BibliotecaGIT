@@ -1,11 +1,10 @@
-package com.biblioteca.repository;
+package com.example.bibliotecagit.repository;
 
 import java.util.List;
-
-import com.biblioteca.entities.Book;
-import com.biblioteca.exceptions.LibraryException;
-
 import java.util.ArrayList;
+
+import com.example.bibliotecagit.entities.Book;
+import com.example.bibliotecagit.exceptions.LibraryException;
 
 public interface BookRepository {
   void addBook(Book book) throws LibraryException;

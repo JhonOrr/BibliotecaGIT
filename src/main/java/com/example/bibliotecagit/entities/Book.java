@@ -3,7 +3,7 @@ package com.example.bibliotecagit.entities;
 import com.example.bibliotecagit.exceptions.LibraryException;
 
 public class Book {
- private String isbn;
+    private String isbn;
     private String title;
     private String author;
     private int publicationYear;
